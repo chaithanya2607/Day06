@@ -33,6 +33,32 @@ ANSWER
 # 2] https://github.com/rvsp/typescript-oops/blob/master/Practice/class-circle.md.
 ANSWER
 ----
+          public class Circle{
+      private Number radius;
+      private String color;
+        }
+       public Circle()
+       public Circle(Number radius)
+       public Circle(Number radius,String color )
+       public Number getRadius()
+       {
+        return radius;
+       }
+       public void setRadius(Number radius)
+       public String getColor()
+      {
+        return colour;
+      }
+       public void setColor(String color)
+       public String toString()
+       public Number getArea()
+      {
+        return (3.14*radius*radius);
+      }
+       public Number getCircumference()
+      {
+        return (2*3.14*radius);
+      }
 
 
 # 3] Write a “person” class to hold all the details.
